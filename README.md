@@ -21,15 +21,15 @@ The repository is structured as follows:
 7. proposition_TER_NER-Biomed_S-Affeldt_2022-2023.pdf: This file provides an overview of the project idea, explaining the motivation, goals, and potential applications.
 
 ## Usage
-To use the environmental factors entity detection models and explore the correlation between entities, follow these steps:
+1. To use the environmental factors entity detection models and explore the correlation between entities, follow these steps:
 
-Ensure you have the required dependencies installed, such as Spacy and Jupyter Notebook.
+2. Ensure you have the required dependencies installed, such as Spacy and Jupyter Notebook.
 
-Load the Spacy models provided in the fact_env and model-best folders.
+3. Load the Spacy models provided in the fact_env and model-best folders.
 
-Vectorize the input data using the pre-trained word embeddings from glove.6B.100d.txt.
+4. Vectorize the input data using the pre-trained word embeddings from glove.6B.100d.txt.
 
-Use the models to detect entities and study their correlation based on the examples and code provided in the Model_combiner.ipynb notebook.
+5. Use the models to detect entities and study their correlation based on the examples and code provided in the Model_combiner.ipynb notebook.
 
 ## Contributions
 Contributions to this project are welcome! If you have any suggestions, bug fixes, or improvements, please feel free to submit a pull request.
