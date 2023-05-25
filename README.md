@@ -6,19 +6,19 @@ This repository contains code and resources related to the detection of environm
 ## Repository Structure
 The repository is structured as follows:
 
-fact_env: This folder contains a Spacy model that specializes in detecting entities related to environmental factors.
+1. fact_env: This folder contains a Spacy model that specializes in detecting entities related to environmental factors.
 
-model-best: This folder contains a Spacy model trained to detect a wide range of biological, chemical, and environmental factors. This model was trained using the result_entities.csv data.
+2. model-best: This folder contains a Spacy model trained to detect a wide range of biological, chemical, and environmental factors. This model was trained using the result_entities.csv data.
 
-glove.6B.100d.txt: This file is used in a Python script to vectorize the data. It provides pre-trained word embeddings for text processing tasks. you can download it from the following link:https://www.kaggle.com/datasets/danielwillgeorge/glove6b100dtxt
+3. glove.6B.100d.txt: This file is used in a Python script to vectorize the data. It provides pre-trained word embeddings for text processing tasks. you can download it from the following link:https://www.kaggle.com/datasets/danielwillgeorge/glove6b100dtxt
 
-Model_combiner.ipynb: This Jupyter notebook demonstrates how to use and combine the Spacy models for detecting and studying the correlation between the entities. It provides examples and explanations of the code.
+4. Model_combiner.ipynb: This Jupyter notebook demonstrates how to use and combine the Spacy models for detecting and studying the correlation between the entities. It provides examples and explanations of the code.
 
-result_entities.csv: This CSV file contains the data from the Nero corpus that was used to train the model-best. It serves as the training data for the model.
+5. result_entities.csv: This CSV file contains the data from the Nero corpus that was used to train the model-best. It serves as the training data for the model.
 
-report: This folder contains a report that describes the project in detail, including the methodology, results, and conclusions.
+6. report: This folder contains a report that describes the project in detail, including the methodology, results, and conclusions.
 
-proposition_TER_NER-Biomed_S-Affeldt_2022-2023.pdf: This file provides an overview of the project idea, explaining the motivation, goals, and potential applications.
+7. proposition_TER_NER-Biomed_S-Affeldt_2022-2023.pdf: This file provides an overview of the project idea, explaining the motivation, goals, and potential applications.
 
 ## Usage
 To use the environmental factors entity detection models and explore the correlation between entities, follow these steps:
